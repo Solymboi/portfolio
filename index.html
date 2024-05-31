@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="project.css" />
+
+    <title >Solym boi_portfolio</title>
+</head>
+<body>
+    <i class="menu-icon">&nbsp;</i>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo"> SOLYM BOI</p>
+                <ul class="nav_il">
+                    
+                    <li><a class="main_nav" href="#">Home</a></li>
+                    <li><a class="main_nav" href="#about">About</a></li>
+                    <li><a class="main_nav" href="#Projects">Projects</a></li>
+                    <li><a class="main_nav" href="#my work">Portfolio</a></li>
+                    <li><a class="main_nav" href="#Contact">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+  <h1>Hi, I'm<span> Aina</span><br> Iyimide from Nigeria,<br> a UI/UX<br> & Web designer</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="background.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About </h1>
+                    <p><h6>I am passionatily seeking an opportunity<br> to apply
+                    my experienced acquired skills<br> and knwoledge to real world
+                    project.<br> My educational foundation and background has<br> built me up
+                    in data analysis, algorithms, including<br> programming such as JAVA-SCRIPT.<br>
+                    Additionaly, I gained experience over the last 5 years<br> which make my
+                    works excellence and outstanding</h6>
+                </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')"> Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br><h5>Designing Web/App interfaces</h5></li>
+                            <li><span>Web Development</span><br><h5>Web app Development</h5></li>
+                            <li><span>App Development</span><br><h5>Building Android/ios</h5></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>UI/UX Design Training at
+                            Alimi Institute</li>
+                            <li><span>2021 - 2023</span><br>Team lead at PTC LLC.</li>
+                            <li><span>2019 - 2021</span><br>UI/UX Design Executive at coin
+                            Digital Ltd.</li>
+                        </ul>
+                    </div>
+                    
+
+
+                
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Projects -->
+    <div id="Projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="Projects-list">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="web design.jfif" >
+                        </div>
+<div>
+    <h2>Web Design</h2>
+    <p><h5>An expert in all aspect of Web<br> Designing with an experience of<br> 2 years</h5></p>
+    <a href="#">Learn more</a>
+</div>
+<div>
+    <img src="ui design.jfif">
+    <i class="fab fa-app-store"></i>
+    <h2>UI/UX Design</h2>
+    <p><h5>
+Also help you in your UI/UX Designs<br> and so on.</h5>
+    </p>
+    <a href="#">Learn more</a>
+</div>
+<div>
+    <img src="app design.jfif">
+    <i class="fas fa-crop-alt"></i>
+    <h2>App Design</h2>
+    <p><h5>
+Deal also with App designing, E.g Jiji<br> Jadsoki, Feastlyin<br>Helping you to create your businesses<br> apps. E.g Jumia, Jiji,.....</h5>
+    </p>
+    <a href="#">Learn more</a>
+</div>
+
+
+
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+     <!-- ----------portfolio--------- -->
+     <div id="my work">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="mobile app.jfif">
+                    <div class="layer">
+                        <h3><b>Social media app</b></h3>
+                        <p><b>The app connects you to talented people around the world.
+                            Download it from play store.</b></p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="music app.jfif">
+                    <div class="layer">
+                        <h3><b>Music App</b></h3>
+                        <p><b>The app connects you to talented people around the world.
+                        Download it from play store.</b></p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+               
+                <div class="container">
+                    <div class="calculator">
+                        <form>
+                            
+                                <input type="text" class="input" name="display">
+                            
+                            
+                                <input type="button" value="AC" onclick="display.value = '' " class="operator">
+                                <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0, -1)">
+                                <input type="button" value="." onclick="display.value += '.' " class="operator">
+                                <input type="button" value="/" onclick="display.value += '/' " class="operator">
+                                <input type="button" value="*" onclick="display.value += '*' " class="operator">
+                                
+                            
+                                <input type="button" value="9" onclick="display.value += '9' ">
+                                <input type="button" value="8" onclick="display.value += '8' ">
+                                <input type="button" value="7" onclick="display.value += '7' ">
+                                <input type="button" value="+" onclick="display.value += '+' " class="operator">
+                                <input type="button" value="-" onclick="display.value += '-' " class="operator">
+                                <input type="button" value="6" onclick="display.value += '6' ">
+                                <input type="button" value="5" onclick="display.value += '5' ">
+                                <input type="button" value="4" onclick="display.value += '4' ">
+                                <input type="button" value="00" onclick="display.value += '00' ">
+                                <input type="button" value="0" onclick="display.value += '0' ">
+                                <input type="button" value="3" onclick="display.value += '3' ">
+                                <input type="button" value="2" onclick="display.value += '2' ">
+                                <input type="button" value="1" onclick="display.value += '1' ">
+                                
+                                <input type="button" value="=" class="equals" onclick="display.value =eval(display.value)"
+                                class="equal operator">
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                        </form>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Contact -->
+    <div class="Contact" id="Contact"></div>
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>E-mail: ainaiyimide@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>Phone number: 08063236868</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa facebook"></i></a>
+                    <a href=""><i class="fab fa whatsapp"></i></a>
+                    <a href=""><i class="fab fa instagram"></i></a>
+                    <a href=""><i class="fab fa telegram"></i></a>
+                </div>
+                <a href="Aina.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea> 
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright(C)2024 Designed by Aina Iymide</p>
+        </div>
+    </div>
+    <footer id="footer">
+      
+      E-mail: <a href="mailto:ainaiyimide@gmail.com">ainaiyimide@gmail.com</a>
+      <br>
+      Phone: +234 806 323 6868
+      <br>
+      Instagram: <a href="https://instagram.com/solym_boi_?igsh=bGhvZGpuYjNxczRn">Solym boi</a>
+     <br>
+      Tiktok: <a href="https://tiktok.com/@iyimides?_t=8mlSAXbsoDO&_r=1">Solym boi</a>
+    </div>
+    </footer>
+    <script>
+        const menu = document.querySelector('.menu-icon')
+        const list = document.querySelector('.nav_il')
+
+        function openMenu() {
+            list.style.display = 'block'
+        }
+
+        //menu.addEventListener('click', openMenu())
+
+        menu.addEventListener('click', () => {
+            list.classList.toggle('active')
+            menu.classList.toggle('active')
+        })
+    </script>
+
+
+
+</body>
+
+
+
+
+
+</html>
+
